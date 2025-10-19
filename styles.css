@@ -1,0 +1,49 @@
+h1 {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(255,255,255,0.4));
+}
+
+h2 {
+    color: yellow;
+    font-size: 28px;
+    text-shadow: 1px 1px 2px black;
+}
+
+p {
+    font-family: "Georgia";
+    font-size: 16px;
+}
+
+.color-block {
+    background-color: rgb(216, 208, 208);
+    padding: 10px;
+}
+
+.color-block p {
+    color: rgb(59, 179, 59);
+    font-weight: bold;
+}
+
+#special-block {
+    border: 2px solid rgb(199, 114, 114);
+    padding: 10px;
+    background-color: rgb(0, 255, 242);
+}
+
+.parent > span {
+    color: rgb(255, 0, 98);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.parent div span {
+    color: rgb(255, 0, 242);
+    font-size: 18px;
+    font-weight: bold;
+}
